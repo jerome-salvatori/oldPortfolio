@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jérôme Salvatori | Développeur web</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="images/favico.png">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="animations.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+        <script type="text/javascript" src="js/vendors/jquery-3.6.0.js"></script>
+        <script type="text/javascript" src="js/vendors/anime.js/anime.min.js"></script>
+    </head>
+    <body>
+        <input type="hidden" id="active-face" value="front">
+        <div class="wrapper">
+            <div class="rectangle">
+                <div class="face front">
+                    <div class="face-content-wrap">
+                        <div class="row g-0 r-banniere">
+                            <div class="col-12 banniere">
+                                <div class="row g-0">
+                                    <div class="col-xl-10 offset-xl-1 col-12">
+                                        <div class="row g-0">
+                                            <div class="col-xxl-4 col-md-6 col-12">
+                                                <div class="row g-0">
+                                                    <div class="col-xxl-2 col-xl-1 col-md-2 cl-lognom-mdplus">
+                                                        <div class="wrapper-logo">
+                                                            <img class="logo" src="images/logo-resized.png" alt="logo">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xxl-10 col-xl-11 col-md-10 cl-nom cl-lognom-mdplus">
+                                                        <div class="nom-ban">JÉRÔME SALVATORI</div>
+                                                        <div class="titre-ban">Développeur web</div>
+                                                    </div>
+                                                    <div class="cl-lognom-xssm col-12">
+                                                        <div class="wrapper-lgn-xssm">
+                                                            <div class="wrapper-logo-xssm">
+                                                                <img class="logo" src="images/logo-resized.png" alt="logo">
+                                                            </div><div class="wrapper-nom-xssm">
+                                                                <div class="nom-ban">JÉRÔME SALVATORI</div>
+                                                                <div class="titre-ban">Développeur web</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 offset-xxl-2">
+                                                <div class="row g-0 r-butban">
+                                                    <div class="col-4">
+                                                        <div class="wrapper-butban">
+                                                            <button type="button" class="butn-ban btn-anim btn-simple-left">Contact</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="wrapper-butban">
+                                                            <button type="button" class="butn-ban btn-anim btn-double-right">Compétences</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="wrapper-butban">
+                                                            <button type="button" class="butn-ban btn-anim btn-simple-right">Formation</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    
+                        <!--<div class="facename">Présentation</div>
+                        <div class="boutons">
+
+                        </div>-->
+                        <div class="row">
+                            <div class="col-12" id="cl-bienvenue">
+                                <div id="wrap-bv">
+                                    <h1 id="bienvenue">Bienvenue !</h1></div>
+                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xxl-6 offset-xxl-3 col-xl-8 offset-xl-2 col-10 offset-1 main-txt">
+                               <p>Bonjour, je me présente, Jérôme Salvatori, développeur web junior.</p>
+                               <p>Je suis attiré par l'univers du code et de l'informatique en général depuis longtemps, c'est-à-dire depuis mes années lycée, les années 2000 donc. J'ai réellement commencé à me former au métier de développeur web en 2017-2018, en situation de travail au sein de Résurgences Insertion. Je me suis également formé en autodidacte, sur mon temps libre. Avant et après cette période, je me suis surtout consacré à des études d'Histoire et à des emplois alimentaires (dans le BTP, la restauration, la logistique, et le tri et la distribution de courrier).</p>
+                               <p>Aujourd'hui, j'ai décidé de me consacrer pleinement à une carrière dans le web et complète actuellement ma formation au sein de La Plateforme_ Marseille. Dans ce cadre, je recherche une alternance.</p>
+                            </div>
+                        </div>
+                        <div class="row g-0 front-btm-bg">
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="face back">
+                    <!--<div class="face-content-wrap">-->
+                        <div class="row g-0 r-banniere">
+                            <div class="col-12 banniere">
+                                <div class="row g-0">
+                                    <div class="col-xl-10 offset-xl-1 col-12">
+                                        <div class="row g-0">
+                                            <div class="col-xxl-4 col-md-6 col-12">
+                                                <div class="row g-0">
+                                                    <div class="col-xxl-2 col-xl-1 col-md-2 cl-lognom-mdplus">
+                                                        <div class="wrapper-logo">
+                                                            <img class="logo" src="images/logo-resized.png" alt="logo">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xxl-10 col-xl-11 col-md-10 cl-nom cl-lognom-mdplus">
+                                                        <div class="nom-ban">JÉRÔME SALVATORI</div>
+                                                        <div class="titre-ban">Développeur web</div>
+                                                    </div>
+                                                    <div class="cl-lognom-xssm col-12">
+                                                        <div class="wrapper-lgn-xssm">
+                                                            <div class="wrapper-logo-xssm">
+                                                                <img class="logo" src="images/logo-resized.png" alt="logo">
+                                                            </div><div class="wrapper-nom-xssm">
+                                                                <div class="nom-ban">JÉRÔME SALVATORI</div>
+                                                                <div class="titre-ban">Développeur web</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 offset-xxl-2">
+                                                <div class="row g-0 r-butban">
+                                                    <div class="col-4">
+                                                        <div class="wrapper-butban">
+                                                            <button type="button" class="butn-ban btn-anim btn-simple-left">Formation</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="wrapper-butban">
+                                                            <button type="button" class="butn-ban btn-anim btn-double-left">Présentation</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="wrapper-butban">
+                                                            <button type="button" class="butn-ban btn-anim btn-simple-right">Contact</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0 back-bg">
+                            <div class="col-10 offset-1 mainct-parcl">
+                                <div class="row g-0">
+                                    <div class="col-md-6 col-12 wrap-mtxt-l">
+                                        <div class="mainc-txt-l">
+                                            <h1>Technologies maîtrisées</h1>
+                                            <p>HTML, CSS, PHP, JS, Jquery, Symfony, MySQL, Git, Linux</p>
+                                            <h2>En cours d'apprentissage</h2>
+                                            <p>Python, Amazon Web Services</p>
+                                            <h2>À venir</h2>
+                                            <p>React JS, Code Igniter</p>
+                                            <h2>Langues parlées</h2>
+                                            <p>Anglais courant</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 wrap-mtxt-r">
+                                        <div class="mainc-txt-r">
+                                            <h1>Réalisations</h1>
+                                            <div class="row g-0 rw-res">
+                                                <div class="col-md-6 col-12 res">
+                                                    <div class="frm-res frm-yas">
+                                                        <div class="res-overlay">
+                                                            <a target="_blank" href="https://www.bistronomie-yasmine.fr/">Bistronomie Yasmine</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-12 res">
+                                                    <div class="frm-res frm-gh">
+                                                        <img src="images/GitHub-LogoPNG2.png">
+                                                        <div class="res-overlay">
+                                                            <a target="_blank" href="https://github.com/JeromeSalvatori">Mon GitHub</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="facename">Compétences</div>
+                        <div class="boutons">
+                            <button type="button" class="btn-anim btn-simple-left">Droite</button>
+                            <button type="button" class="btn-anim btn-double-left">Avant</button>
+                            <button type="button" class="btn-anim btn-simple-right">Gauche</button>
+                        </div>-->
+                        <!--<div class="row g-0 back-btm-bg">
+
+                        </div>-->
+                    <!--</div>-->
+                </div>
+                <div class="face right">
+                    <div class="face-content-wrap">
+                        <div class="row g-0 r-banniere">
+                            <div class="col-12 banniere">
+                                <div class="row g-0">
+                                    <div class="col-xl-10 offset-xl-1 col-12">
+                                        <div class="row g-0">
+                                            <div class="col-xxl-4 col-md-6 col-12">
+                                                <div class="row g-0">
+                                                    <div class="col-xxl-2 col-xl-1 col-md-2 cl-lognom-mdplus">
+                                                        <div class="wrapper-logo">
+                                                            <img class="logo" src="images/logo-resized.png" alt="logo">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xxl-10 col-xl-11 col-md-10 cl-nom cl-lognom-mdplus">
+                                                        <div class="nom-ban">JÉRÔME SALVATORI</div>
+                                                        <div class="titre-ban">Développeur web</div>
+                                                    </div>
+                                                    <div class="cl-lognom-xssm col-12">
+                                                        <div class="wrapper-lgn-xssm">
+                                                            <div class="wrapper-logo-xssm">
+                                                                <img class="logo" src="images/logo-resized.png" alt="logo">
+                                                            </div><div class="wrapper-nom-xssm">
+                                                                <div class="nom-ban">JÉRÔME SALVATORI</div>
+                                                                <div class="titre-ban">Développeur web</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 offset-xxl-2">
+                                                <div class="row g-0 r-butban">
+                                                    <div class="col-4">
+                                                        <div class="wrapper-butban">
+                                                            <button type="button" class="butn-ban btn-anim btn-simple-left">Présentation</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="wrapper-butban">
+                                                            <button type="button" class="butn-ban btn-anim btn-double-right">Contact</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="wrapper-butban">
+                                                            <button type="button" class="butn-ban btn-anim btn-simple-right">Compétences</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="facename">Formation</div>
+                        <div class="boutons">
+                            <button type="button" class="btn-anim btn-simple-left">Avant</button>
+                            <button type="button" class="btn-anim btn-double-right">Gauche</button>
+                            <button type="button" class="btn-anim btn-simple-right">Arrière</button>
+                        </div>-->
+                        <div class="row g-0">
+                            <div class="col-lg-6 col-md-7 order-md-1 order-2" id="formation-txt">
+                                <div id="fortxt-wrap">
+                                    <p>Je suis actuellement en formation à <a href="https://laplateforme.io/" target="_blank">La Plateforme_ Marseille</a>.</p>
+                                    <p>La Plateforme_ est le nouveau campus méditerranée du numérique proposant des méthodes pédagogiques innovantes et co-fondé avec le Club Top 20 réunissant les grandes entreprises de la Métropole Aix Marseille.</p>
+                                    <p>Je suis actuellement la formation <a href="https://aws.amazon.com/fr/training/restart/" target="_blank">AWS Re/start</a>, qui enseigne les fondamentaux des métiers du cloud et de l'utilisation des web services Amazon.</p>
+                                    <p>En Septembre prochain, toujours au sein de La Plateforme_, j'entamerai un autre cursus, la <a href="https://laplateforme.io/coding-school/" target="_blank">Coding School en deuxième année</a>, formation de 12 mois qui s'effectue en alternance et délivre un titre un titre RNCP de développeur d'applications de niveau 6 européen (équivalent bac +3/+4).</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-5 order-md-2 order-1" id="bg-bk-formation">
+                                Formation
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="face left">
+                    <div class="row g-0 r-banniere">
+                        <div class="col-12 banniere">
+                            <div class="row g-0">
+                                <div class="col-xl-10 offset-xl-1 col-12">
+                                    <div class="row g-0">
+                                        <div class="col-xxl-4 col-md-6 col-12">
+                                            <div class="row g-0">
+                                                <div class="col-xxl-2 col-xl-1 col-md-2 cl-lognom-mdplus">
+                                                    <div class="wrapper-logo">
+                                                        <img class="logo" src="images/logo-resized.png" alt="logo">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xxl-10 col-xl-11 col-md-10 cl-nom cl-lognom-mdplus">
+                                                    <div class="nom-ban">JÉRÔME SALVATORI</div>
+                                                    <div class="titre-ban">Développeur web</div>
+                                                </div>
+                                                <div class="cl-lognom-xssm col-12">
+                                                    <div class="wrapper-lgn-xssm">
+                                                        <div class="wrapper-logo-xssm">
+                                                            <img class="logo" src="images/logo-resized.png" alt="logo">
+                                                        </div><div class="wrapper-nom-xssm">
+                                                            <div class="nom-ban">JÉRÔME SALVATORI</div>
+                                                            <div class="titre-ban">Développeur web</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 offset-xxl-2">
+                                            <div class="row g-0 r-butban">
+                                                <div class="col-4">
+                                                    <div class="wrapper-butban">
+                                                        <button type="button" class="butn-ban btn-anim btn-simple-left">Compétences</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="wrapper-butban">
+                                                        <button type="button" class="butn-ban btn-anim btn-double-left">Formation</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="wrapper-butban">
+                                                        <button type="button" class="butn-ban btn-anim btn-simple-right">Présentation</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-0">
+                        <div class="col-md-6 col-12" id="bg-lft-contact">Contact</div>
+                        <div class="col-md-6 col-12">
+                            <div class="row g-0">
+                                <div class="col-10 offset-1" id="div-form">
+                                    <h2>Formulaire de contact</h2>
+                                    <form id="form-contact">
+                                        <label for="sujet">Sujet</label><br>
+                                        <input type="text" id="sujet" name="sujet"><br>
+                                        <label for="nom-exp">Votre nom</label><br>
+                                        <input type="text" id="nom-exp" name="nom-exp" placeholder="(facultatif)"><br>
+                                        <label for="adresse">Votre adresse email</label><br>
+                                        <input type="email" id="adresse" name="adresse"><br>
+                                        <label for="message">Message</label><br>
+                                        <textarea id="message" name="message"></textarea>
+                                        <button type="button" id="contact-sub">Envoyer</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="row g-0" id="row-ln">
+                                <div class="col-10 offset-1" id="div-ln">
+                                    <div id="wrap-lien-ln">
+                                        <a href="https://www.linkedin.com/in/j%C3%A9r%C3%B4me-salvatori-622466158/" id="lien-ln" target="_blank"><img src="images/Linkedin-LogoPNG1.png" alt="linkedin"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="facename">Contact</div>
+                    <div class="boutons">
+                        <button type="button" class="btn-anim btn-simple-left">Arrière</button>
+                        <button type="button" class="btn-anim btn-double-left">Droite</button>
+                        <button type="button" class="btn-anim btn-simple-right">Avant</button>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/rotation_page.js"></script>
+        <script type="text/javascript" src="js/line_breaks.js"></script>
+        <script type="text/javascript" src="js/mail.js"></script>
+        <script type="text/javascript" src="js/resize_pres.js"></script>
+        <script type="text/javascript" src="js/force_scroll_mobile.js"></script>
+        <script type="text/javascript">
+            document.write('<style type="text/css">body{display:none}</style>');
+            $(function() {
+                $('body').css('display', 'block');
+                rotationPage();
+                mailSend();
+                resizePres();
+                forceScroll();
+                /*$('.face').each(function() {
+                    $(this).find('.r-banniere').load('include/top_menu.html');
+                    if (!$(this).hasClass('front')) {
+                        $(this).find('.banniere').addClass('ban-invisible');
+                    }
+                });*/
+                
+                var textWrapper = document.querySelector('#bienvenue');
+                textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+                
+                //anime.timeline({loop: true})
+                anime.timeline({loop: false})
+                .add({
+                    targets: '#bienvenue .letter',
+                    scale: [4,1],
+                    opacity: [0,1],
+                    translateZ: 0,
+                    easing: "easeOutExpo",
+                    duration: 1600,
+                    delay: (el, i) => 70*i
+                });
+                /*}).add({
+                    targets: '#bienvenue',
+                    opacity: 0,
+                    duration: 1000,
+                    easing: "easeOutExpo",
+                    delay: 1000
+                });*/
+                
+                /*var maint_max_h = window.innerHeight - ($('.front .r-banniere').outerHeight() + $('#bienvenue').outerHeight() + 25);*/
+                
+                /*var maint_maxh = $('.front-btm-bg').outerHeight() + 100;
+                var maint_minh = $('.front-btm-bg').outerHeight() -50;
+                
+                $('.main-txt').css('max-height', maint_maxh);
+                $('.main-txt').css('min-height', maint_minh);*/
+                
+                $('.frm-res').hover(function() {
+                    $(this).find('.res-overlay').animate({opacity: 0.5}, 500);
+                }, function() {
+                    $(this).find('.res-overlay').animate({opacity: 0}, 500);
+                });
+                
+                var fgh_ht, fgh_wh, fgh_itop, fgh_ileft;
+                
+                function adjustFghGh() {
+                    fgh_ht = $('.frm-gh img').height();
+                    console.log(fgh_ht);
+                    fgh_wh = $('.frm-gh img').width();
+                    console.log(fgh_wh);
+                    fgh_itop = fgh_ht / (-2);
+                    console.log(fgh_itop);
+                    fgh_ileft = fgh_wh / (-2);
+                    console.log(fgh_ileft);
+                    
+                    if (fgh_itop === 0) {
+                        fgh_itop = fgh_ileft;
+                    }
+                    
+                    $('.frm-gh img').css({marginTop: fgh_itop, marginLeft: fgh_ileft});
+                }
+                
+                adjustFghGh();
+                
+                var i = 0;
+                $(window).resize(function() {
+                    
+                    i++;
+    
+                    setTimeout(function() {
+                        i--;
+                        if(i == 0) {
+                            adjustFghGh();
+                        }
+                    }, 200);
+                });
+                
+                $('#active-face').change(function() {
+                    if ($(this).val() == "back") {
+                        setTimeout(function() {
+                            adjustFghGh();
+                    }, 3050);
+                    }
+                });
+                
+                $('face').scroll(function() {
+                    console.log("detect scroll");
+                    console.log($('#active-face').val());
+                });
+                
+                /*var w_height = $(window).height();
+                var b_height = $('.back').height();
+                var b_cm_height = $('.back .r-banniere').height() + $('.')*/
+                /*var btns_matchs = {
+                    front: {
+                        btn_simple_left: "Contact",
+                        btn_double_right: "Compétences",
+                        btn_simple_right: "Formation"
+                    },
+                    right: {
+                        btn_simple_left: "Présentation",
+                        btn_double_right: "Contact",
+                        btn_simple_right: "Compétences"
+                    },
+                    back: {
+                        btn_simple_left: "Formation",
+                        btn_double_left: "Présentation",
+                        btn_simple_right: "Contact"
+                    },
+                    left: {
+                        btn_simple_left: "Compétences",
+                        btn_double_left: "Formation",
+                        btn_simple_right: "Présentation"
+                    }
+                }
+                
+                var fc_classes;
+                var fc_key;
+                var this_face;
+                var btn_ban;
+                var k_altered;
+                $('.face').each(function() {
+                    fc_classes = $(this).attr('class');
+                    fc_classes = fc_classes.split(' ');
+                    fc_key = btns_matchs[fc_classes[1]];
+                    this_face = $(this);
+                    $.each(fc_key, function(k, v) {
+                        k_altered = k.replace('_', '-');
+                        btn_ban = '<div class="col-4"><div class="wrapper-butban"><button type="button" class="butn-ban '+k_altered+'">'+v+'</button></div></div>';
+                        
+                        setTimeout(function() {
+                            console.log(this_face);
+                            console.log(this_face.find('.r-butban'));
+                            console.log(btn_ban);
+                            this_face.find('.r-butban').append(btn_ban);
+                        }, 100);
+                        
+                    });
+                });*/
+                
+                
+            });
+        </script>
+    </body>
+</html>

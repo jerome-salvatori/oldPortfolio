@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test page 3d</title>
+        <meta charset="utf-8">
+        <style>
+            
+            
+            /*@keyframes rotation-left-1 {
+                from { transform: rotate3d(0, 0, 0) } to { transform: rotate3d(0, 1, 0, 90deg) };
+            }
+            
+            @keyframes rotation-left-2 {
+                from { transform: rotate3d(0, 1, 0, 90deg) } to { transform: rotate3d(0, 1, 0, 180deg) };
+            }
+            
+            @keyframes rotation-left-3 {
+                from { transform: rotate3d(0, 1, 0, 180deg) } to { transform: rotate3d(0, 1, 0, 270deg) };
+            }
+            
+            @keyframes rotation-left-4 {
+                from { transform: rotate3d(0, 1, 0, 270deg) } to { transform: rotate3d(0, 1, 0, 360deg) };
+            }
+            
+            @keyframes rotation-right-1 {
+                from { transform: rotate3d(0, 0, 0) } to { transform: rotate3d(0, 1, 0, -90deg) };
+            }
+            
+            @keyframes rotation-right-2 {
+                from { transform: rotate3d(0, 1, 0, -90deg) } to { transform: rotate3d(0, 1, 0, -180deg) };
+            }
+            
+            @keyframes rotation-right-3 {
+                from { transform: rotate3d(0, 1, 0, -180deg) } to { transform: rotate3d(0, 1, 0, -270deg) };
+            }
+            
+            @keyframes rotation-right-4 {
+                from { transform: rotate3d(0, 1, 0, -270deg) } to { transform: rotate3d(0, 1, 0, -360deg) };
+            }*/
+            
+            /*body {
+                margin: 0;
+                padding: 0;
+            }*/
+            
+            /* --- recoil --- */
+            /*@keyframes recoil-front-1 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(0deg) translateZ(35vw); };
+            }*/
+            
+            @keyframes recoil-front-1 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(0deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes recoil-back-1 {
+                from { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(180deg) translateZ(65vw); };
+            }*/
+            
+            @keyframes recoil-back-1 {
+                from { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(180deg) translateZ(50vw); };
+            }
+            
+            @keyframes recoil-right-1 {
+                from { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(90deg) translateZ(50vw); };
+            }
+            
+            @keyframes recoil-left-1 {
+                from { transform: translateZ(-50vw) rotateY(-90deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(-90deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes recoil-front-2 {
+                from { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(90deg) translateZ(35vw); };
+            }*/
+            
+            @keyframes recoil-front-2 {
+                from { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(90deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes recoil-back-2 {
+                from { transform: translateZ(-50vw) rotateY(270deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(270deg) translateZ(65vw); };
+            }*/
+            
+            @keyframes recoil-back-2 {
+                from { transform: translateZ(-50vw) rotateY(270deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(270deg) translateZ(50vw); };
+            }
+            
+            @keyframes recoil-right-2 {
+                from { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(180deg) translateZ(50vw); };
+            }
+            
+            @keyframes recoil-left-2 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(0deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes recoil-front-3 {
+                from { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(180deg) translateZ(35vw); };
+            }*/
+            
+            @keyframes recoil-front-3 {
+                from { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(180deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes recoil-back-3 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(0deg) translateZ(65vw); };
+            }*/
+            
+            @keyframes recoil-back-3 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(0deg) translateZ(50vw); };
+            }
+            
+            @keyframes recoil-right-3 {
+                from { transform: translateZ(-50vw) rotateY(270deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(270deg) translateZ(50vw); };
+            }
+            
+            @keyframes recoil-left-3 {
+                from { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(90deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes recoil-front-4 {
+                from { transform: translateZ(-50vw) rotateY(270deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(270deg) translateZ(35vw); };
+            }*/
+            
+            @keyframes recoil-front-4 {
+                from { transform: translateZ(-50vw) rotateY(270deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(270deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes recoil-back-4 {
+                from { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(90deg) translateZ(65vw); };
+            }*/
+            
+            @keyframes recoil-back-4 {
+                from { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(90deg) translateZ(50vw); };
+            }
+            
+            @keyframes recoil-right-4 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(0deg) translateZ(50vw); };
+            }
+            
+            @keyframes recoil-left-4 {
+                from { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(180deg) translateZ(50vw); };
+            }
+            
+            /* --- forward --- */
+            
+            /*@keyframes forward-front-1 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(35vw) } to { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw); };
+            }*/
+            @keyframes forward-front-1 {
+                from { transform: translateZ(-65vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes forward-back-1 {
+                from { transform: translateZ(-50vw) rotateY(180deg) translateZ(65vw) } to { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes forward-back-1 {
+                from { transform: translateZ(-65vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw); };
+            }
+            
+            @keyframes forward-right-1 {
+                from { transform: translateZ(-65vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw); };
+            }
+            
+            @keyframes forward-left-1 {
+                from { transform: translateZ(-65vw) rotateY(-90deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(-90deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes forward-front-2 {
+                from { transform: translateZ(-50vw) rotateY(90deg) translateZ(35vw) } to { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes forward-front-2 {
+                from { transform: translateZ(-65vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes forward-back-2 {
+                from { transform: translateZ(-50vw) rotateY(270deg) translateZ(65vw) } to { transform: translateZ(-50vw) rotateY(270deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes forward-back-2 {
+                from { transform: translateZ(-65vw) rotateY(270deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(270deg) translateZ(50vw); };
+            }
+            
+            @keyframes forward-right-2 {
+                from { transform: translateZ(-65vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw); };
+            }
+            
+            @keyframes forward-left-2 {
+                from { transform: translateZ(-65vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes forward-front-3 {
+                from { transform: translateZ(-50vw) rotateY(180deg) translateZ(35vw) } to { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes forward-front-3 {
+                from { transform: translateZ(-65vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes forward-back-3 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(65vw) } to { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes forward-back-3 {
+                from { transform: translateZ(-65vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw); };
+            }
+            
+            @keyframes forward-right-3 {
+                from { transform: translateZ(-65vw) rotateY(270deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(270deg) translateZ(50vw); };
+            }
+            
+            @keyframes forward-left-3 {
+                from { transform: translateZ(-65vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw); };
+            }
+            
+            @keyframes forward-front-4 {
+                from { transform: translateZ(-50vw) rotateY(270deg) translateZ(35vw) } to { transform: translateZ(-50vw) rotateY(270deg) translateZ(50vw); };
+            }
+            
+            @keyframes forward-front-4 {
+                from { transform: translateZ(-65vw) rotateY(270deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(270deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes forward-back-4 {
+                from { transform: translateZ(-50vw) rotateY(90deg) translateZ(65vw) } to { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes forward-back-4 {
+                from { transform: translateZ(-65vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw); };
+            }
+            
+            @keyframes forward-right-4 {
+                from { transform: translateZ(-65vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw); };
+            }
+            
+            @keyframes forward-left-4 {
+                from { transform: translateZ(-65vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw); };
+            }
+            
+            /* --- rotation left --- */
+            /*@keyframes rotation-left-front-1 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw); };
+            }*/
+            
+            /*@keyframes rotation-left-front-1 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(35vw) } to { transform: translateZ(-50vw) rotateY(90deg) translateZ(35vw); };
+            }*/
+            
+            @keyframes rotation-left-front-1 {
+                from { transform: translateZ(-65vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(90deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-left-back-1 {
+                from { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(270deg) translateZ(50vw); };
+            }*/
+            
+            /*@keyframes rotation-left-back-1 {
+                from { transform: translateZ(-50vw) rotateY(180deg) translateZ(65vw) } to { transform: translateZ(-50vw) rotateY(270deg) translateZ(65vw); };
+            }*/
+            
+            @keyframes rotation-left-back-1 {
+                from { transform: translateZ(-65vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(270deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-left-right-1 {
+                from { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes rotation-left-right-1 {
+                from { transform: translateZ(-65vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(180deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-left-left-1 {
+                from { transform: translateZ(-50vw) rotateY(-90deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes rotation-left-left-1 {
+                from { transform: translateZ(-65vw) rotateY(-90deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(0deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-left-front-2 {
+                from { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw); };
+            }*/
+            
+            /*@keyframes rotation-left-front-2 {
+                from { transform: translateZ(-50vw) rotateY(90deg) translateZ(35vw) } to { transform: translateZ(-50vw) rotateY(180deg) translateZ(35vw); };
+            }*/
+            
+            @keyframes rotation-left-front-2 {
+                from { transform: translateZ(-65vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(180deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-left-back-2 {
+                from { transform: translateZ(-50vw) rotateY(270deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(360deg) translateZ(50vw); };
+            }*/
+            
+            /*@keyframes rotation-left-back-2 {
+                from { transform: translateZ(-50vw) rotateY(270deg) translateZ(65vw) } to { transform: translateZ(-50vw) rotateY(360deg) translateZ(65vw); };
+            }*/
+            
+            @keyframes rotation-left-back-2 {
+                from { transform: translateZ(-65vw) rotateY(270deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(360deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-left-right-2 {
+                from { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(270deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes rotation-left-right-2 {
+                from { transform: translateZ(-65vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(270deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-left-left-2 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes rotation-left-left-2 {
+                from { transform: translateZ(-65vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(90deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-left-front-3 {
+                from { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(270deg) translateZ(50vw); };
+            }*/
+            
+            /*@keyframes rotation-left-front-3 {
+                from { transform: translateZ(-50vw) rotateY(180deg) translateZ(35vw) } to { transform: translateZ(-50vw) rotateY(270deg) translateZ(35vw); };
+            }*/
+            
+            @keyframes rotation-left-front-3 {
+                from { transform: translateZ(-65vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(270deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-left-back-3 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw); };
+            }*/
+            
+            /*@keyframes rotation-left-back-3 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(65vw) } to { transform: translateZ(-50vw) rotateY(90deg) translateZ(65vw); };
+            }*/
+            
+            @keyframes rotation-left-back-3 {
+                from { transform: translateZ(-65vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(90deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-left-right-3 {
+                from { transform: translateZ(-50vw) rotateY(270deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(360deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes rotation-left-right-3 {
+                from { transform: translateZ(-65vw) rotateY(270deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(360deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-left-left-3 {
+                from { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes rotation-left-left-3 {
+                from { transform: translateZ(-65vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(180deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-left-front-4 {
+                from { transform: translateZ(-50vw) rotateY(270deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(360deg) translateZ(50vw); };
+            }*/
+            
+            /*@keyframes rotation-left-front-4 {
+                from { transform: translateZ(-50vw) rotateY(270deg) translateZ(35vw) } to { transform: translateZ(-50vw) rotateY(360deg) translateZ(35vw); };
+            }*/
+            
+            @keyframes rotation-left-front-4 {
+                from { transform: translateZ(-65vw) rotateY(270deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(360deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-left-back-4 {
+                from { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw); };
+            }*/
+            
+            /*@keyframes rotation-left-back-4 {
+                from { transform: translateZ(-50vw) rotateY(90deg) translateZ(65vw) } to { transform: translateZ(-50vw) rotateY(180deg) translateZ(65vw); };
+            }*/
+            
+            @keyframes rotation-left-back-4 {
+                from { transform: translateZ(-65vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(180deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-left-right-4 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes rotation-left-right-4 {
+                from { transform: translateZ(-65vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(90deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-left-left-4 {
+                from { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(270deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes rotation-left-left-4 {
+                from { transform: translateZ(-65vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(270deg) translateZ(50vw); };
+            }
+            
+            /* --- rotation right --- */
+            /*@keyframes rotation-right-front-1 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(-90deg) translateZ(50vw); };
+            }*/
+            
+            /*@keyframes rotation-right-front-1 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(35vw) } to { transform: translateZ(-50vw) rotateY(-90deg) translateZ(35vw); };
+            }*/
+            
+            @keyframes rotation-right-front-1 {
+                from { transform: translateZ(-65vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(-90deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-right-back-1 {
+                from { transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw); };
+            }*/
+            
+            /*@keyframes rotation-right-back-1 {
+                from { transform: translateZ(-50vw) rotateY(180deg) translateZ(65vw) } to { transform: translateZ(-50vw) rotateY(90deg) translateZ(65vw); };
+            }*/
+            
+            @keyframes rotation-right-back-1 {
+                from { transform: translateZ(-65vw) rotateY(180deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(90deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-right-right-1 {
+                from { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes rotation-right-right-1 {
+                from { transform: translateZ(-65vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(0deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-right-left-1 {
+                from { transform: translateZ(-50vw) rotateY(-90deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(-180deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes rotation-right-left-1 {
+                from { transform: translateZ(-65vw) rotateY(-90deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(-180deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-right-front-2 {
+                from { transform: translateZ(-50vw) rotateY(-90deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(-180deg) translateZ(50vw); };
+            }*/
+            
+            /*@keyframes rotation-right-front-2 {
+                from { transform: translateZ(-50vw) rotateY(-90deg) translateZ(35vw) } to { transform: translateZ(-50vw) rotateY(-180deg) translateZ(35vw); };
+            }*/
+            
+            @keyframes rotation-right-front-2 {
+                from { transform: translateZ(-65vw) rotateY(-90deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(-180deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-right-back-2 {
+                from { transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw); };
+            }*/
+            
+            /*@keyframes rotation-right-back-2 {
+                from { transform: translateZ(-50vw) rotateY(90deg) translateZ(65vw) } to { transform: translateZ(-50vw) rotateY(0deg) translateZ(65vw); };
+            }*/
+            
+            @keyframes rotation-right-back-2 {
+                from { transform: translateZ(-65vw) rotateY(90deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(0deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-right-right-2 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(-90deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes rotation-right-right-2 {
+                from { transform: translateZ(-65vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(-90deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-right-left-2 {
+                from { transform: translateZ(-50vw) rotateY(-180deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(-270deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes rotation-right-left-2 {
+                from { transform: translateZ(-65vw) rotateY(-180deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(-270deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-right-front-3 {
+                from { transform: translateZ(-50vw) rotateY(-180deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(-270deg) translateZ(50vw); };
+            }*/
+            
+            /*@keyframes rotation-right-front-3 {
+                from { transform: translateZ(-50vw) rotateY(-180deg) translateZ(35vw) } to { transform: translateZ(-50vw) rotateY(-270deg) translateZ(35vw); };
+            }*/
+            
+            @keyframes rotation-right-front-3 {
+                from { transform: translateZ(-65vw) rotateY(-180deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(-270deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-right-back-3 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(-90deg) translateZ(50vw); };
+            }*/
+            
+            /*@keyframes rotation-right-back-3 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(65vw) } to { transform: translateZ(-50vw) rotateY(-90deg) translateZ(65vw); };
+            }*/
+            
+            @keyframes rotation-right-back-3 {
+                from { transform: translateZ(-65vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(-90deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-right-right-3 {
+                from { transform: translateZ(-50vw) rotateY(-90deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(-180deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes rotation-right-right-3 {
+                from { transform: translateZ(-65vw) rotateY(-90deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(-180deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-right-left-3 {
+                from { transform: translateZ(-50vw) rotateY(-270deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(-360deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes rotation-right-left-3 {
+                from { transform: translateZ(-65vw) rotateY(-270deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(-360deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-right-front-4 {
+                from { transform: translateZ(-50vw) rotateY(-270deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(-360deg) translateZ(50vw); };
+            }*/
+            
+            /*@keyframes rotation-right-front-4 {
+                from { transform: translateZ(-50vw) rotateY(-270deg) translateZ(35vw) } to { transform: translateZ(-50vw) rotateY(-360deg) translateZ(35vw); };
+            }*/
+            
+            @keyframes rotation-right-front-4 {
+                from { transform: translateZ(-65vw) rotateY(-270deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(-360deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-right-back-4 {
+                from { transform: translateZ(-50vw) rotateY(-90deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(-180deg) translateZ(50vw); };
+            }*/
+            
+            /*@keyframes rotation-right-back-4 {
+                from { transform: translateZ(-50vw) rotateY(-90deg) translateZ(65vw) } to { transform: translateZ(-50vw) rotateY(-180deg) translateZ(65vw); };
+            }*/
+            
+            @keyframes rotation-right-back-4 {
+                from { transform: translateZ(-65vw) rotateY(-90deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(-180deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-right-right-4 {
+                from { transform: translateZ(-50vw) rotateY(-180deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(-270deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes rotation-right-right-4 {
+                from { transform: translateZ(-65vw) rotateY(-180deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(-270deg) translateZ(50vw); };
+            }
+            
+            /*@keyframes rotation-right-left-4 {
+                from { transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-50vw) rotateY(-90deg) translateZ(50vw); };
+            }*/
+            
+            @keyframes rotation-right-left-4 {
+                from { transform: translateZ(-65vw) rotateY(0deg) translateZ(50vw) } to { transform: translateZ(-65vw) rotateY(-90deg) translateZ(50vw); };
+            }
+            
+            html,body{
+                margin: 0;
+                height: 100%;
+                width: 100%;
+            }
+            
+            .container {
+                /*width: 750px;
+                height: 400px;
+                margin: 50vh 0 0 50vw;
+                perspective: 1500px;
+                perspective-origin: center;
+                border: none;
+                transform: translate(-375px, -200px);*/
+                /*transition: transform 4s linear;*/
+                perspective: 200vw;
+                height: 100%; 
+                width: 100vw; 
+                /*overflow: hidden;*/
+            }
+            .rectangle {
+                /*width: 100%;*/
+                position: relative;
+                height: 100%;
+                width: 100vw;
+                transform-style: preserve-3d;
+                backface-visibility: visible;
+                transform-origin: center center 50vw !important;
+                /*animation: 8s infinite ease-in-out rotation;*/
+            }
+            .face {
+                /*display: block;*/
+                position: absolute;
+                box-sizing: border-box;
+                border: 3px solid rgba(0, 0, 0, 0.8);
+                background: rgba(139, 0, 0, 0.6);
+                height: 100%;
+                width: 100%;
+                color: rgba(0, 0, 0, 0.8);
+                font-family: sans-serif;
+                font-size: 80px;
+                /*transform-origin: center;*/
+                /*text-align: center;*/
+                /*transition: transform 4s linear;*/
+            }
+            .front {
+                /*transform: translateZ(375px);
+                height: 400px;
+                line-height: 400px;*/
+                transform: translateZ(-50vw) rotateY(0deg) translateZ(50vw); 
+                /*transform-origin: center center;*/
+            }
+            .back {
+                /*transform: rotateY(180deg) translateZ(375px);
+                height: 400px;
+                line-height: 400px;*/
+                transform: translateZ(-50vw) rotateY(180deg) translateZ(50vw);
+                /*transform-origin: center center;*/
+            }
+            .right {
+                /*transform: rotateY(90deg) translateZ(375px);
+                height: 400px;
+                line-height: 400px;*/
+                transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw);
+                /*transform-origin: center center;*/
+            }
+            .left {
+                /*transform: rotateY(-90deg) translateZ(375px);
+                height: 400px;
+                line-height: 400px;*/
+                transform: translateZ(-50vw) rotateY(-90deg) translateZ(50vw);
+                /*transform-origin: center center;*/
+            }
+            
+            
+            /*.rectangle:hover .front {
+                transform: translateZ(-50vw) rotateY(90deg) translateZ(50vw); 
+            }*/
+            /*.top {
+                transform: rotateX(90deg) translateZ(375px);
+                height: 750px;
+                line-height: 750px;
+            }
+            .bottom {
+                transform: rotateX(-90deg) translateZ(25px);
+                height: 750px;
+                line-height: 750px;
+            }*/
+            
+            .facename {
+                position: absolute;
+                top: 50%;
+                width: 100%;
+                text-align: center;
+                height: 100px;
+                line-height: 100px;
+                margin-top: -50px;
+            }
+            
+            .boutons {
+                width: 100%;
+                /*margin-top: 80px;
+                margin-bottom: 60px;*/
+                position: absolute;
+                bottom: 60px;
+                text-align: center;
+            }
+            /*.wrap-btns {
+                margin: auto;
+                width: auto;
+            }
+            .boutons button {
+                
+            }*/
+        </style>
+        <script src="jquery-3.6.0.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="rectangle">
+                <div class="face front">
+                    <div class="facename">Front</div>
+                    <div class="boutons">
+                        <button type="button" class="btn-left">Gauche</button>
+                        <button type="button" class="btn-right">Droite</button>
+                    </div>
+                </div>
+                <div class="face back">
+                    <div class="facename">Back</div>
+                    <div class="boutons">
+                        <button type="button" class="btn-left">Gauche</button>
+                        <button type="button" class="btn-right">Droite</button>
+                    </div>
+                </div>
+                <div class="face right">
+                    <div class="facename">Right</div>
+                    <div class="boutons">
+                        <button type="button" class="btn-left">Gauche</button>
+                        <button type="button" class="btn-right">Droite</button>
+                    </div>
+                </div>
+                <div class="face left">
+                    <div class="facename">Left</div>
+                    <div class="boutons">
+                        <button type="button" class="btn-left">Gauche</button>
+                        <button type="button" class="btn-right">Droite</button>
+                    </div>
+                </div>
+                <!--<div class="face top">Top</div>
+                <div class="face bottom">Bottom</div>-->
+            </div>
+        </div>
+        
+        <script type="text/javascript">
+            $(function() {
+                var pos = 0;
+                var block_click = false;
+                var anim_val;
+                var faces = ['front', 'back', 'right', 'left'];
+                var face;
+                
+                /*function zoomOut(pos) {
+                    $.each(faces, function(k, v) {
+                        anim_val = "3s "
+                    });
+                }*/
+                
+                function zoomOut(pos, v, dir) {
+                    if (dir === 'right') {
+                        anim_val = '3s ease-in-out forwards recoil-' + v + '-' + pos;
+                    } else {
+                        anim_val = '3s ease-in-out forwards recoil-' + v + String(pos);
+                    }
+                    return anim_val;
+                }
+                
+                function zoomIn(pos, v, dir) {
+                    if (dir === "left") {
+                        pos--;
+                    } else if (dir === "right") {
+                        pos++;
+                    }
+                    if (pos == 0) {
+                        pos = -4;
+                    } else if (pos == -5) {
+                        pos == -1;
+                    }
+                    if (dir === 'right') {
+                        anim_val = '3s ease-in-out forwards forward-' + v + '-' + pos;
+                    } else {
+                        anim_val = '3s ease-in-out forwards forward-' + v + String(pos);
+                    }
+                    anim_val = '3s ease-in-out forwards forward-' + v + String(pos);
+                    return anim_val;
+                }
+                
+                function turnLeft(pos, v) {
+                    anim_val = '3s ease-in-out forwards rotation-left-' + v + String(pos);
+                    return anim_val;
+                }
+                
+                function turnRight(concat, v) {
+                    anim_val = '3s ease-in-out forwards rotation-right-' + v + '-' + concat;
+                    return anim_val;
+                }
+                
+                function animateFaces(animFunc, pos, dir = false) {
+                    $.each(faces, function(k, v) {
+                        anim_val = animFunc(pos, v, dir);
+                        console.log(anim_val);
+                        face = '.'+v;
+                        $(face).css({animation: anim_val});
+                    });
+                }
+                
+                
+                
+                $('.btn-left').click(function() {
+                    //$('.rectangle').animate({transform: 'rotate3d(0, 1, 0, 90deg)'});
+                    if (block_click) {
+                        return false;
+                    }
+                    block_click = true;
+                    console.log(block_click);
+                    pos--;
+                    console.log(pos);
+                    
+                    animateFaces(zoomOut, pos);
+                    
+                    setTimeout(function() {
+                        animateFaces(turnLeft, pos);
+                    }, 3050);
+                    
+                    setTimeout(function() {
+                        animateFaces(zoomIn, pos, 'left');
+                    }, 6050);
+                    
+                    /*
+                    anim_val = '1s 1 ease-in-out forwards rotation-left' + String(pos);
+                    $('.rectangle').css({animation: anim_val});
+                    */
+                    
+                    /*$.each(faces, function(k, v) {
+                        anim_val = '3s ease-in-out forwards rotation-left-' + v + String(pos);
+                        console.log(anim_val);
+                        face = '.'+v;
+                        $(face).css({animation: anim_val});
+                    });*/
+                    if (pos == -4) {
+                        pos = 0;
+                    }
+                    
+                    setTimeout(function() {
+                        block_click = false;
+                        console.log(block_click);
+                    }, 9050);
+                });
+                
+                var concat;
+                $('.btn-right').click(function() {
+                    if (block_click) {
+                        return false;
+                    }
+                    block_click = true;
+                    if (pos == 0) {
+                        pos = -4;
+                    }
+                    pos++;
+                    concat = 4 + pos;
+                    concat = String(concat);
+                    console.log(pos);
+                    console.log(concat);
+                    
+                    animateFaces(zoomOut, concat, 'right');
+                    
+                    setTimeout(function() {
+                        animateFaces(turnRight, concat);
+                    }, 3050);
+                    
+                    setTimeout(function() {
+                        animateFaces(zoomIn, concat, 'right');
+                    }, 6050);
+                    
+                    
+                    /*anim_val = '1s 1 ease-in-out forwards rotation-right-' + concat;
+                    $('.rectangle').css({animation: anim_val});*/
+                    
+                    /*$.each(faces, function(k, v) {
+                        anim_val = '3s ease-in-out forwards rotation-right-' + v + '-' + concat;
+                        console.log(anim_val);
+                        face = '.'+v;
+                        $(face).css({animation: anim_val});
+                    });*/
+                    
+                    setTimeout(function() {
+                        block_click = false;
+                    }, 9050);
+                });
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,1090 @@
+@media (min-width: 2560px) {
+    .main-txt {
+        font-size: 2.18rem;
+    }
+    
+    #formation-txt {
+        font-size: 2.7rem;
+    }
+    
+    #bg-bk-formation {
+        font-size: 9rem;
+    }
+    
+    .mainc-txt-r h1 {
+        font-size: 6rem;
+    }
+    
+    #bg-lft-contact {
+        font-size: 9rem;
+    }
+    
+    #div-form h2 {
+        font-size: 4rem;
+    }
+    
+    #div-form label {
+        font-size: 1.8rem;
+    }
+    
+    #form-contact {
+        font-size: 1.6rem;
+    }
+    
+    #div-form textarea {
+        height: calc(var(--height-contact-form) * 0.49);
+    }
+}
+
+@media (min-width: 1920px) and (max-width: 2559px) {
+    #formation-txt {
+        font-size: 1.97rem;
+    }
+    
+    #div-form textarea {
+        height: calc(var(--height-contact-form) * 0.46);
+    }
+}
+
+@media (min-width: 1680px) and (max-width: 2559px) {
+    .main-txt {
+        font-size: 1.59rem;
+    }
+    
+    .mainc-txt-r h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 1680px) and (max-width: 1919px) {
+    #formation-txt {
+        font-size: 1.8rem;
+    }
+    
+    .mainc-txt-r h1 {
+        font-size: 3.8rem;
+    }
+    
+    #div-form textarea {
+        height: calc(var(--height-contact-form) * 0.44);
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+    #formation-txt {
+        font-size: 1.8rem;
+    }
+    
+    .mainc-txt-r h1 {
+        font-size: 3.1rem;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    #formation-txt {
+        font-size: 1.25rem;
+    }
+    
+    #bg-bk-formation {
+        font-size: 7rem;
+    }
+    
+    .mainc-txt-r h1 {
+        font-size: 2.6rem;
+    }
+    
+    :root {
+        --height-div-form: calc((100vh - 5rem) * 0.8);
+    }
+    
+    #bg-lft-contact {
+        font-size: 7rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1399px) {
+    .cl-nom {
+        padding-left: 20px;
+    }
+    
+    .main-txt {
+        margin-top: 30px;
+        height: calc(20rem - 85px + var(--clbv-ht));
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1365px) {
+    .main-txt {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    :root {
+        --bv-fs: 7rem;
+    }
+    
+    #formation-txt {
+        font-size: 1.12rem;
+    }
+    
+    #bg-bk-formation {
+        font-size: 6rem;
+    }
+    
+    .rw-res {
+        margin-top: calc((((100vh - 21rem) - ((100vh - 21rem) * 0.7)) / 2) - 1rem);
+    }
+    
+    #bg-lft-contact {
+        font-size: 7rem;
+    }
+    
+    #div-form h2 {
+        font-size: 2.5rem;
+    }
+    
+    #div-form label {
+        font-size: 1.3rem;
+    }
+    
+    #form-contact {
+        font-size: 1.2rem;
+    }
+    
+    :root {
+        --height-div-form: calc((100vh - 5rem) * 0.75);
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) and (min-height: 1500px) {
+    #formation-txt {
+        font-size: 1.9rem;
+    }
+    
+    .mainct-parcl {
+        height: calc(100vh - 45rem);
+        margin-top: 20rem;
+    }
+    
+    .wrap-mtxt-l, .wrap-mtxt-r {
+        padding: 2rem;
+    }
+    
+    .mainc-txt-l {
+        height: calc(100vh - 49rem);
+    }
+    
+    .mainc-txt-l h1 {
+        font-size: 3.2rem;
+    }
+    
+    .mainc-txt-l h2 {
+        font-size: 2.7rem;
+    }
+    
+    .mainc-txt-l p {
+        font-size: 1.5rem;
+    }
+    
+    .mainc-txt-l p:not(:last-child) {
+        margin-bottom: 5rem;
+    }
+    
+    .rw-res {
+        height: calc((100vh - 49rem) * 0.4);
+        margin-top: calc(((100vh - 49rem) - ((100vh - 49rem) * 0.4)) / 2);
+    }
+    
+    .frm-res {
+        height: calc(((100vh - 49rem) * 0.4) - 1.4rem);
+    }
+    
+    .res-overlay a {
+        line-height: calc(((100vh - 49rem) * 0.4) - 1.4rem);
+    }
+    
+    #bg-lft-contact {
+        background-position: 21% 0;
+    }
+    
+    :root {
+        --height-div-form: calc((100vh - 5rem) * 0.9);
+    }
+    
+    #div-form h2 {
+        font-size: 4rem;
+    }
+    
+    #div-form label {
+        font-size: 2rem;
+    }
+    
+    #form-contact {
+        font-size: 1.6rem;
+    }
+    
+    #div-form textarea {
+        height: calc(var(--height-contact-form) * 0.64);
+    }
+}
+
+@media (min-width: 768px) {
+    .cl-lognom-xssm {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .logo {
+        left: 50%;
+        margin-left: -1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .butn-ban {
+        width: 7rem;
+        margin-left: -3.5rem;
+    }
+    
+    .right {
+        overflow-y: scroll;
+    }
+    
+    .right .face-content-wrap  {
+        height: 125%;
+    }
+    
+    :root {
+        --clbv-ht: calc((100vh - 17rem) / 2);
+    }
+    
+    :root {
+        --bv-fs: 6rem;
+    }
+    
+    .main-txt {
+        margin-top: 10px;
+        height: calc(12rem - 35px + var(--clbv-ht));
+        font-size: 1.06rem;
+    }
+    
+    .front-btm-bg {
+        height: 12rem;
+    }
+    
+    #bg-bk-formation {
+        height: calc(125vh - 5rem);
+    }
+    
+    #fortxt-wrap {
+        height: calc(125vh - 10rem);
+    }
+    
+    #bg-bk-formation {
+        font-size: 3rem;
+        line-height: calc(125vh - 5rem);
+    }
+    
+    #formation-txt {
+        /*overflow: hidden;*/
+        font-size: 1.1rem;
+    }
+    
+    #bg-lft-contact {
+        font-size: 6rem;
+    }
+    
+    #div-form h2 {
+        font-size: 1.8rem;
+    }
+    
+    #form-contact {
+        font-size: 1rem;
+    }
+    
+    #div-form label {
+        font-size: 1rem;
+    }
+    
+    :root {
+        --height-div-form: calc((100vh - 5rem) * 0.8);
+    }
+    
+    #contact-sub {
+        font-size: 1rem;
+        height: 2rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) and (max-height: 849px) {
+    .mainct-parcl {
+        height: calc(100vh - 10rem);
+        margin-top: 2.5rem;
+    }
+    
+    .mainc-txt-l {
+        height: calc(100vh - 12rem);
+    }
+    
+    .mainc-txt-r h1 {
+        font-size: 2.5rem;
+    }
+    
+    .rw-res {
+        height: calc((100vh - 12rem) * 0.7);
+        margin-top: calc(((100vh - 12rem) - ((100vh - 12rem) * 0.7)) / 2);
+    }
+    
+    .frm-res {
+        height: calc(((100vh - 12rem) * 0.7) - 1.4rem);
+        font-size: 0.8rem;
+    }
+    
+    .res-overlay a {
+        line-height: calc(((100vh - 12rem) * 0.7) - 1.4rem);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) and (min-height: 850px) {
+    .right {
+        overflow-y: initial;
+    }
+    
+    .right .face-content-wrap  {
+        height: 100%;
+    }
+    
+    #bg-bk-formation {
+        height: calc(100vh - 5rem);
+    }
+    
+    #fortxt-wrap {
+        height: calc(100vh - 10rem);
+    }
+    
+    #formation-txt {
+        font-size: 1.3rem;
+    }
+    
+    #bg-bk-formation {
+        font-size: 3.5rem;
+        line-height: calc(100vh - 5rem);
+    }
+    
+    .mainc-txt-r h1 {
+        font-size: 2.8rem;
+    }
+    
+    .rw-res {
+        height: calc((100vh - 21rem) * 0.5);
+        margin-top: calc(((100vh - 21rem) - ((100vh - 21rem) * 0.5)) / 2);
+    }
+    
+    .frm-res {
+        height: calc(((100vh - 21rem) * 0.5) - 1.4rem);
+        font-size: 0.8rem;
+    }
+    
+    .res-overlay a {
+        line-height: calc(((100vh - 21rem) * 0.5) - 1.4rem);
+    }
+    
+    #bg-lft-contact {
+        background-position: 17%;
+    }
+    
+    #div-form h2 {
+        font-size: 2.5rem;
+    }
+    
+    #form-contact {
+        font-size: 1.5rem;
+    }
+    
+    #div-form label {
+        font-size: 1.5rem;
+    }
+    
+    #div-form textarea {
+        height: calc(var(--height-contact-form) * 0.39);
+    }
+    
+    #contact-sub {
+        font-size: 1.15rem;
+        height: 2.2rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) and (min-height: 1000px) {
+        
+    .mainct-parcl {
+        height: calc(100vh - 40rem);
+        margin-top: 17.5rem;
+    }
+    
+    .mainc-txt-l {
+        height: calc(100vh - 42rem);
+    }
+    
+    .mainc-txt-l h1 {
+        font-size: 3rem;
+    }
+    
+    .mainc-txt-l h2 {
+        font-size: 2.5rem;
+    }
+    
+    .mainc-txt-l p {
+        font-size: 1.3rem;
+    }
+    
+    .mainc-txt-l p:not(:last-child) {
+        /*margin-bottom: 4rem;*/
+    }
+    
+    .rw-res {
+        height: calc((100vh - 42rem) * 0.5);
+        margin-top: calc(((100vh - 42rem) - ((100vh - 42rem) * 0.5)) / 2);
+    }
+    
+    .frm-res {
+        height: calc(((100vh - 42rem) * 0.5) - 1.4rem);
+        font-size: 0.7rem;
+    }
+    
+    .res-overlay a {
+        line-height: calc(((100vh - 42rem) * 0.5) - 1.4rem);
+    }
+    
+    :root {
+        --height-div-form: calc((100vh - 5rem) * 0.85);
+    }
+    
+    #div-form textarea {
+        height: calc(var(--height-contact-form) * 0.55);
+    }
+}
+
+@media (max-width: 810px) and (min-width: 768px) and (min-height: 800px) {
+    :root {
+        --clbv-ht: calc((100vh - 25rem) / 2);
+    }
+    
+    :root {
+        --bv-fs: 8rem;
+    }
+    
+    .main-txt {
+        margin-top: 0;
+        height: calc(20rem - 75px + var(--clbv-ht));
+        font-size: 1.45rem;
+    }
+    
+    .front-btm-bg {
+        height: 20rem;
+    }
+}
+
+@media (max-width: 810px) and (min-width: 768px) and (min-height: 800px) and (max-height: 949px) {
+    .main-txt {
+        height: calc(20rem - 50px + var(--clbv-ht));
+        font-size: 1.34rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .front-btm-bg {
+        background-position: top 0 right 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 799px) {
+    .frm-res {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .r-banniere {
+        height: 10rem;
+    }
+    
+    .cl-lognom-mdplus {
+        display: none;
+    }
+    
+    .wrapper-logo-xssm {
+        width: 2.286rem;
+    }
+    
+    .mainc-txt-l {
+        border-right: initial;
+        border-bottom: 1px solid #ffe34e;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    :root {
+        --clbv-ht: calc((150vh - 40rem) / 2);
+        --bv-fs: 6rem;
+    }
+    
+    .face-content-wrap {
+        height: 150%;
+    }
+    
+    .right .face-content-wrap {
+        height: 200%;
+    }
+    
+    .main-txt {
+        height: calc(30rem - 75px + var(--clbv-ht));
+    }
+    
+    .front-btm-bg {
+        height: 30rem;
+    }
+    
+    #formation-txt {
+        font-size: 1.37rem;
+    }
+    
+    #bg-bk-formation {
+        font-size: 7rem;
+    }
+    
+    .back .face-content-wrap {
+        height: 200%;
+    }
+    
+    .back-bg {
+        height: calc(200vh - 5rem);
+    }
+    
+    .mainct-parcl {
+        height: calc(200vh - 19rem);
+    }
+    
+    .rw-res {
+        height: calc((100vh - 21rem) * 0.6);
+        margin-top: calc(((100vh - 21rem) - ((100vh - 21rem) * 0.6)) / 2);
+    }
+    
+    .frm-res {
+        height: calc(((100vh - 21rem) * 0.6) - 1.4rem);
+    }
+    
+    .frm-gh img {
+        width: initial;
+        height: 95%;
+    }
+    
+    .res-overlay a {
+        line-height: calc(((100vh - 21rem) * 0.6) - 1.4rem)
+    }
+    
+    .mainc-txt-r h1 {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 575px) {
+    :root {
+        --clbv-ht: calc((200vh - 50rem) / 2);
+        --bv-fs: 4.3rem;
+    }
+    
+    .face-content-wrap {
+        height: 200%;
+    }
+    
+    .right .face-content-wrap {
+        height: 200%;
+    }
+    
+    .main-txt {
+        height: calc(40rem - 75px + var(--clbv-ht));
+    }
+    
+    .front-btm-bg {
+        height: 30rem;
+    }
+    
+    #fortxt-wrap {
+        height: calc(150vh - 10rem);
+    }
+    
+    #formation-txt {
+        font-size: 1.4rem;
+    }
+    
+    #bg-bk-formation {
+        font-size: 5rem;
+    }
+    
+    .back-bg {
+        height: calc(200vh - 10rem);
+    }
+    
+    .mainct-parcl {
+        height: calc(200vh - 24rem);
+    }
+
+    .mainc-txt-r {
+        height: calc(100vh - 26rem);
+    }
+    
+    .mainc-txt-r h1 {
+        font-size: 2.2rem;
+    }
+    
+    .rw-res {
+        height: calc((100vh - 26rem) * 0.7);
+        margin-top: calc(((100vh - 26rem) - ((100vh - 26rem) * 0.7)) / 2);
+    }
+    
+    .frm-res {
+        height: calc(((100vh - 26rem) * 0.7) - 1.4rem);
+    }
+    
+    .frm-gh img {
+        width: unset;
+        height: 95%;
+    }
+    
+    .res-overlay a {
+        line-height: calc(((100vh - 26rem) * 0.7) - 1.4rem);
+    }
+    
+    #bg-lft-contact {
+        font-size: 6rem;
+        background-position: 13%;
+    }
+    
+    #div-form h2 {
+        font-size: 2.5rem;
+    }
+    
+    :root {
+        --height-div-form: calc((100vh - 10rem) * 0.84);
+    }
+    
+    :root {
+        --height-div-ln: calc(100vh - var(--height-div-form) - 10rem - 2rem);
+    }
+    
+    #div-form label {
+        font-size: 1.3rem;
+    }
+    
+    #contact-sub {
+        height: 2.2rem;
+    }
+}
+
+@media (max-width: 575px) and (max-height: 650px) {
+    .main-txt {
+        font-size: 1.25rem;
+    }
+    
+    .mainc-txt-l {
+        height: calc(100vh - 13rem);
+    }
+    
+    #div-form h2 {
+        font-size: 2rem;
+    }
+    
+    #form-contact, #div-form label, #contact-sub {
+        font-size: 1.1rem;
+    }
+    
+    #contact-sub {
+        height: 2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    :root {
+        --bv-fs: 4rem;
+        --clbv-ht: calc((200vh - 48rem) / 2);
+    }
+    
+    .main-txt {
+        height: calc(40rem - 45px + var(--clbv-ht));
+        font-size: 1.25rem;
+    }
+    
+    #bg-bk-formation {
+        font-size: 4rem;
+    }
+    
+    #formation-txt {
+        font-size: 1rem;
+    }
+    
+    #bg-lft-contact {
+        font-size: 5rem;
+    }
+    
+    :root {
+        --height-div-ln: calc(125vh - var(--height-div-form) - 8rem - 2rem);
+    }
+    
+    :root {
+        --height-div-form: calc((125vh - 8rem) * 0.82);
+    }
+}
+
+@media (max-width: 400px), (max-height: 450px) and (max-width: 767px) {
+    .r-banniere {
+        height: 8rem;
+    }
+    
+    .wrapper-lgn-xssm {
+        height: 4rem;
+    }
+    
+    .wrapper-logo-xssm {
+        height: 4rem;
+        width: 2.06rem;
+    }
+    
+    .logo {
+        height: 1.8rem;
+        margin-top: -0.9rem;
+    }
+    
+    .nom-ban {
+        height: 1.6rem;
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+        margin-top: 0.4rem;
+    }
+    
+    .titre-ban {
+        margin-top: 0.25rem;
+        height: 1.3rem;
+        line-height: 1.3rem;
+        font-size: 1.3rem;
+    }
+    
+    .wrapper-butban {
+        height: 4rem;
+    }
+    
+    .butn-ban {
+        width: 5rem;
+        margin-left: -2.5rem;
+        font-size: 0.7rem;
+        height: 1.8rem;
+        margin-top: -0.9rem;
+    }
+    
+    #fortxt-wrap {
+        height: calc(100vh - 8rem);
+    }
+    
+    .back-bg {
+        height: calc(200vh - 8rem);
+    }
+}
+
+@media (max-width: 400px) and (max-height: 580px) {
+    .main-txt {
+        font-size: 1.15rem;
+    }
+    
+    .right .face-content-wrap {
+        height: 250%;
+    }
+    
+    #bg-bk-formation {
+        font-size: 4rem;
+    }
+    
+    #fortxt-wrap {
+        height: calc(150vh - 8rem);
+    }
+    
+    #formation-txt {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 375px) and (max-height: 600px) {
+    .back .face-content-wrap {
+        height: 300%;
+    }
+    
+    .back-bg {
+        height: calc(300vh - 8rem);
+    }
+    
+    .mainct-parcl {
+        height: calc(300vh - 22rem);
+    }
+    
+    .mainc-txt-l {
+        height: calc(130vh - 12rem);
+    }
+    
+    .frm-res {
+        height: 45vh;
+    }
+    
+    .frm-gh img {
+        height: unset;
+        width: 95%;
+    }
+    
+    .res-overlay a {
+        line-height: 45vh;
+    }
+}
+
+@media (max-width: 360px) {
+    .main-txt {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 360px) and (max-height: 575px) {
+    .main-txt {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 359px) {
+    :root {
+        --bv-fs: 3.5rem;
+    }
+    
+    .main-txt {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    :root {
+        --clbv-ht: calc((250vh - 48rem) / 2);
+    }
+    
+    .face-content-wrap {
+        height: 250%;
+    }
+    
+    .main-txt {
+        font-size: 1.05rem;
+    }
+}
+
+@media (max-height: 450px) {
+    :root {
+        --clbv-ht: calc((130vh - 17rem) / 2);
+    }
+    
+    .face-content-wrap {
+        height: 130%;
+    }
+    
+    .main-txt {
+        font-size: 1rem;
+        margin-top: 0;
+        height: calc(12rem - 10px + var(--clbv-ht));
+    }
+}
+
+@media (max-height: 450px) and (max-width: 767px) {
+    :root {
+        --clbv-ht: calc((130vh - 20rem) / 3);
+        --bv-fs: 3rem;
+    }
+    
+    .main-txt {
+        height: calc(12rem - 10px + var(--clbv-ht) * 2);
+        font-size: 0.96rem;
+    }
+    
+    .front-btm-bg {
+        height: 12rem;
+    }
+    
+    #formation-txt {
+        font-size: 0.95rem;
+    }
+    
+    .back .face-content-wrap {
+        height: 400%;
+    }
+    
+    .back-bg {
+        height: calc(400vh - 8rem);
+    }
+    
+    .mainct-parcl {
+        height: calc(400vh - 22rem);
+    }
+    
+    .mainc-txt-l {
+        height: calc(175vh - 12rem);
+    }
+    
+    /*.mainc-txt-r {
+        height: calc(150vh - 24rem);
+    }*/
+    
+    .rw-res {
+        height: 70vh;
+        margin-top: 10vh;
+    }
+    
+    .frm-res {
+        height: 68.6vh;
+    }
+    
+    .res-overlay a {
+        line-height: 68.6vh;
+    }
+    
+    :root {
+        --height-div-form: calc((190vh - 8rem) * 0.8);
+    }
+    
+    :root {
+        --height-div-ln: calc(190vh - var(--height-div-form) - 8rem - 2rem);
+    }
+}
+
+@media (max-height: 375px) and (min-width: 768px) and (max-width: 812px) {
+    .back .face-content-wrap {
+        height: 150%;
+    }
+    
+    .back-bg {
+        height: calc(150vh - 5rem);
+    }
+    
+    .mainct-parcl {
+        height: calc(150vh - 10rem);
+    }
+    
+    .mainc-txt-l {
+        height: calc(150vh - 12rem);
+    }
+    
+    .rw-res {
+        height: 60vh;
+        margin-top: 10vh;
+    }
+    
+    .frm-res {
+        height: calc(60vh - 1.4rem);
+    }
+    
+    .frm-gh img {
+        width: 95%;
+        height: unset;
+    }
+    
+    .res-overlay a {
+        line-height: calc(60vh - 1.4rem);
+    }
+    
+    .mainc-txt-r h1 {
+        font-size: 2.8rem;
+    }
+    
+    :root {
+        --height-div-form: calc((150vh - 5rem) * 0.8);
+    }
+    
+    :root {
+        --height-div-ln: calc(150vh - var(--height-div-form) - 5rem - 2rem);
+    }
+    
+    #bg-lft-contact {
+        height: calc(150vh - 5rem);
+        line-height: calc(150vh - 5rem);
+    }
+}
+
+@media (max-height: 375px) and (max-width: 767px) {
+    .rw-res {
+        height: 60vh;
+        margin-top: 0;
+    }
+        
+    .frm-res {
+        height: 58.6vh;
+    }
+    
+    .res-overlay a {
+        line-height: 58.6vh;
+    }
+}
+
+@media (max-height: 360px) and (max-width: 767px) {
+    .right .face-content-wrap {
+        height: 225%;
+    }
+    
+    #fortxt-wrap {
+        height: calc(125vh - 8rem);
+    }
+    
+    :root {
+        --height-div-ln: calc(200vh - var(--height-div-form) - 8rem - 2rem);
+    }
+    
+    :root {
+        --height-div-form: calc((200vh - 8rem) * 0.8);
+    }
+}
+
+@media (max-height: 450px) and (max-width: 575px) {
+    .right .face-content-wrap {
+        height: 250%;
+    }
+    
+    #fortxt-wrap {
+        height: calc(150vh - 8rem);
+    }
+    
+    #formation-txt {
+        font-size: 1rem;
+    }
+}
+
+@media (max-height: 450px) and (max-width: 320px), (max-width: 480px) and (max-height: 320px) {
+    :root {
+        --bv-fs: 2rem;
+    }
+    
+    .right .face-content-wrap {
+        height: 300%;
+    }
+    
+    #fortxt-wrap {
+        height: calc(200vh - 8rem);
+    }
+}
+
+@media (max-width: 480px) and (max-height: 320px) {
+    #div-form h2 {
+        font-size: 1.9rem;
+    }
+    
+    #form-contact, #div-form label, #contact-sub {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 767px), (max-height: 450px) {
+    .face {
+        overflow-y: scroll;
+    }
+}
